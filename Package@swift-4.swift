@@ -12,6 +12,6 @@ let package = Package(
     ],
     targets: [
     	.target(name: "LeafProvider", dependencies: ["Leaf", "Vapor"]),
-    	.testTarget(name: "LeafProviderTests", dependencies: ["LeafProvider", "Testing"])
+    	.testTarget(name: "LeafProviderTests", dependencies: ["LeafProvider"])
     ]
 )
